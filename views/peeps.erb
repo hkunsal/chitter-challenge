@@ -1,0 +1,9 @@
+<html>
+<body>
+<h1>List of Peeps</h1>
+
+<% @peeps.each do |peep| %>
+  <%= peep.content %> <%= peep.created_at %> <%= peep.maker_username %> <br>
+<% end %>
+</body>
+</html>
